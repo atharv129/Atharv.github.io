@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Slide 1: About -->
+    <section class="slide" id="about">
+      <h1>About Me</h1>
+      <p>Hi, I'm Atharv Darade. I'm a passionate developer who loves building web applications and solving problems.
+        Currently studying electronics and telecommunication engineering in MIT Academy of engineering, Alandi. 
+      </p>
+    </section>
+
+    <!-- Slide 2: Skills -->
+    <section class="slide" id="skills">
+      <h1>Skills</h1>
+      <ul>
+        <li>1]Required knowledge in Basic C language</li>
+        <li>2]Learning python student</li>
+        <li>3]Video Editor</li>
+        <li>4]Music Enthusiast</li>
+      </ul>
+    </section>
+
+    <!-- Slide 3: Projects -->
+    <section class="slide" id="projects">
+      <h1>Projects</h1>
+      <p>Here are some of my recent projects:</p>
+      <ul>
+        <li>Project 1: [Description]</li>
+        <li>Project 2: [Description]</li>
+        <li>Project 3: [Description]</li>
+      </ul>
+    </section>
+
+    <!-- Slide 4: Contact -->
+    <section class="slide" id="contact">
+      <h1>Contact Me</h1>
+      <p>Feel free to send me a message:</p>
+</body>
+</html>
+  <form action="https://formspree.io/f/xblglpjy?_next=/thank-you.html" method="POST">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <!-- Hidden Fields -->
+    <input type="hidden" name="_subject" value="New Message from Portfolio">
+    <input type="hidden" name="_replyto" value="%email%">
+    <input type="text" name="_gotcha" style="display:none;">
+    <!-- Submit Button -->
+    <button type="submit">Send Message</button>
+  </form>
+<link rel="stylesheet" href="style.css">
